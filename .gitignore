@@ -1,0 +1,10 @@
+.idea/
+model/
+venv/
+test/
+utils/logs/
+app/function_interface/utils/logs/
+*.pyc
+*.out
+*.log
+venv*
