@@ -1,14 +1,14 @@
 pipeline {
-    agent none
+    agent none 
     stages {
-        stage('Build') {
+        stage('Build') { 
             agent {
-                docker none {
-                    image 'python:3-alpine'
+                docker {
+                    image 'python:3.6' 
                 }
             }
             steps {
-                sh 'python3 run.py'
+                sh 'python run.py' 
             }
         }
     }
